@@ -1,0 +1,102 @@
+
+:root {
+    --amarillo : #DCFD00;
+}
+
+.navbar {
+    border-radius: 10px;
+    position: fixed !important;
+    width: calc(100% - 2rem); /* Ancho total menos 2rem de margen a los lados */
+    left: 1rem; /* Margen izquierdo de 1rem */
+    right: 1rem; /* Margen derecho de 1rem */
+    margin-top: 1rem; /* Margen superior de 1rem */
+    z-index: 2;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar .nav-item {
+    margin-left: 1rem;
+}
+
+.navbar .acciones .nav-item{
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: -7px;
+}
+
+.navbar .brand {
+    display: inline-block;
+    background-color: #000;    
+    border-radius: 5px;
+    padding: .3rem 2.3rem;
+    margin-left: -7px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.navbar .brand,
+.navbar .brand a {
+    color: #fff;
+}
+
+.numero h2 {
+    font-size: 35rem;
+    font-weight: 200;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.row .place p{
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.row .description {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+    min-height: 100px;
+}
+
+.row .description p {
+    font-weight: 700;
+    flex: 50%;
+}
+
+.row .description i {
+    flex: 50%;
+    text-align: end;
+    margin-right: 2rem;
+}
+
+.columna {
+    transition: background-size .3s ease;
+    height: 100%;
+}
+
+
+.columna:hover {
+    color: #fff;
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#col1:hover {
+    background-image: url("img/barcelona.jpeg");
+}
+
+#col2:hover {
+    background-image: url("img/madrid.jpeg");
+}
+
+#col3:hover {
+    background-image: url("img/paris.jpeg");
+}
+
+#col4:hover {
+    background-image: url("img/londres.jpeg");
+}
